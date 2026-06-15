@@ -1,0 +1,319 @@
+{
+    "common": {
+        "actions": {
+            "cancel": "취소",
+            "clear": "지우기",
+            "close": "닫기",
+            "collapse": "접기",
+            "collapseAll": "모두 접기",
+            "decrease": "축소",
+            "disable": "비활성화",
+            "enable": "활성화",
+            "exit": "종료",
+            "expand": "펼치기",
+            "expandAll": "모두 펼치기",
+            "filter": "필터",
+            "hide": "숨기기",
+            "hideAll": "모두 숨기기",
+            "increase": "확대",
+            "open": "열기",
+            "reset": "초기화",
+            "search": "검색",
+            "show": "표시",
+            "showAll": "모두 표시",
+            "sortBy": "정렬 기준",
+            "toggle": "전환"
+        }
+    },
+    "reader": {
+        "actions": {
+            "goBackward": "뒤로 가기",
+            "goForward": "앞으로 가기",
+            "goToNextChapter": {
+                "compact": "다음",
+                "descriptive": "다음 챕터"
+            },
+            "goToNextPage": {
+                "compact": "다음",
+                "descriptive": "다음 페이지"
+            },
+            "goToNextResource": {
+                "compact": "다음",
+                "descriptive": "다음 리소스"
+            },
+            "goToNextSentence": {
+                "compact": "다음",
+                "descriptive": "다음 문장"
+            },
+            "goToPosition": {
+                "compact": "이동",
+                "descriptive": "위치로 이동"
+            },
+            "goToPreviousChapter": {
+                "compact": "이전",
+                "descriptive": "이전 챕터"
+            },
+            "goToPreviousPage": {
+                "compact": "이전",
+                "descriptive": "이전 페이지"
+            },
+            "goToPreviousResource": {
+                "compact": "이전",
+                "descriptive": "이전 리소스"
+            },
+            "goToPreviousSentence": {
+                "compact": "이전",
+                "descriptive": "이전 문장"
+            }
+        },
+        "annotations": {
+            "actions": {
+                "editNote": {
+                    "compact": "메모 수정"
+                }
+            },
+            "bookmarks": {
+                "actions": {
+                    "add": {
+                        "compact": "북마크 추가"
+                    },
+                    "delete": {
+                        "compact": "북마크 삭제"
+                    }
+                }
+            }
+        },
+        "media": {
+            "actions": {
+                "pause": {
+                    "compact": "일시 중지",
+                    "descriptive": "재생 일시 중지"
+                },
+                "play": {
+                    "compact": "재생",
+                    "descriptive": "재생 시작"
+                },
+                "playbackRate": {
+                    "compact": "속도",
+                    "descriptive": "재생 속도"
+                },
+                "sleepTimer": {
+                    "compact": "타이머",
+                    "descriptive": "수면 타이머",
+                    "presets": {
+                        "endOfChapter": "챕터 끝에서",
+                        "endOfResource": "리소스 끝에서"
+                    }
+                }
+            }
+        },
+        "preferences": {
+            "brightness": "밝기",
+            "columns": {
+                "auto": "자동",
+                "dual": {
+                    "compact": "2단",
+                    "descriptive": "두 단"
+                },
+                "single": {
+                    "compact": "1단",
+                    "descriptive": "한 단"
+                },
+                "title": "단 설정"
+            },
+            "fit": {
+                "auto": {
+                    "compact": "자동"
+                },
+                "page": {
+                    "compact": "페이지"
+                },
+                "title": "맞춤",
+                "width": {
+                    "compact": "너비"
+                }
+            },
+            "fontFamily": {
+                "humanist": {
+                    "compact": "Humanist",
+                    "descriptive": "Humanist 산세리프"
+                },
+                "modern": {
+                    "compact": "Modern",
+                    "descriptive": "Modern 세리프"
+                },
+                "monospace": "고정폭",
+                "oldStyle": {
+                    "compact": "Old style",
+                    "descriptive": "Old style 세리프"
+                },
+                "publisher": "출판사 글꼴",
+                "sans": "산세리프",
+                "title": "글꼴 모음"
+            },
+            "fontSize": "글꼴 크기",
+            "fontWeight": {
+                "bold": "굵게",
+                "normal": "보통",
+                "title": "글꼴 굵기"
+            },
+            "hyphens": {
+                "label": "하이픈 사용",
+                "title": "하이픈"
+            },
+            "layout": {
+                "paginated": "페이지형",
+                "scrolled": "스크롤형",
+                "title": "레이아웃"
+            },
+            "letterSpacing": "자간",
+            "ligatures": {
+                "label": "합자 사용",
+                "title": "합자"
+            },
+            "lineHeight": {
+                "default": "기본",
+                "large": "넓게",
+                "medium": "균형",
+                "small": "좁게",
+                "title": "줄 간격"
+            },
+            "noRuby": {
+                "label": "루비 주석 숨기기",
+                "title": "루비 주석"
+            },
+            "offsetFirstPage": "첫 페이지를 단독으로 표시",
+            "paragraphIndent": "문단 들여쓰기",
+            "paragraphSpacing": "문단 간격",
+            "publisherStyles": {
+                "label": "원본 포맷 사용",
+                "title": "출판사 스타일"
+            },
+            "readingDirection": {
+                "default": {
+                    "compact": "기본",
+                    "descriptive": "원본 읽기 방향 사용"
+                },
+                "ltr": {
+                    "compact": "우로",
+                    "descriptive": "좌에서 우로"
+                },
+                "rtl": {
+                    "compact": "좌로",
+                    "descriptive": "우에서 좌로"
+                },
+                "title": "읽기 방향"
+            },
+            "spacing": {
+                "presets": {
+                    "accessible": "접근성",
+                    "balanced": "균형",
+                    "custom": "사용자 지정",
+                    "default": "기본",
+                    "loose": "넓게",
+                    "tight": "좁게",
+                    "title": "사전 설정"
+                },
+                "title": "간격"
+            },
+            "spread": {
+                "always": {
+                    "compact": "양면 펼침"
+                },
+                "auto": {
+                    "compact": "자동"
+                },
+                "never": {
+                    "compact": "단면 페이지"
+                },
+                "title": "페이지 펼침"
+            },
+            "text": "텍스트",
+            "textAlign": {
+                "default": "기본",
+                "justify": "양쪽 정렬",
+                "left": "왼쪽",
+                "right": "오른쪽",
+                "title": "텍스트 정렬"
+            },
+            "textNormalization": {
+                "label": "모든 텍스트 포맷 제거",
+                "title": "텍스트 일반화"
+            },
+            "themes": {
+                "auto": "자동",
+                "contrast1": "고대비 1",
+                "contrast2": "고대비 2",
+                "contrast3": "고대비 3",
+                "dark": "어둡게",
+                "gray": "회색",
+                "light": "밝게",
+                "paper": "종이",
+                "sepia": "세피아",
+                "title": "테마"
+            },
+            "title": "표시 설정",
+            "wordSpacing": "단어 간격",
+            "zoom": "확대/축소"
+        },
+        "progression": {
+            "pagesLeft": {
+                "descriptive_one": "{{ count }} 페이지 남음",
+                "descriptive_other": "{{ count }} 페이지 남음"
+            },
+            "pagesLeftInChapter": {
+                "descriptive_one": "챕터 내 {{ count }} 페이지 남음",
+                "descriptive_other": "챕터 내 {{ count }} 페이지 남음"
+            },
+            "pagesLeftInPublication": {
+                "descriptive_one": "도서 내 {{ count }} 페이지 남음",
+                "descriptive_other": "도서 내 {{ count }} 페이지 남음"
+            },
+            "percentage": "{{ percentage }}%",
+            "positionsLeft": {
+                "compact_one": "{{ count }} 남음",
+                "compact_other": "{{ count }} 남음",
+                "descriptive_one": "{{ count }} 위치 남음",
+                "descriptive_other": "{{ count }} 위치 남음"
+            },
+            "positionsLeftInChapter": {
+                "compact_one": "챕터 내 {{ count }} 남음",
+                "compact_other": "챕터 내 {{ count }} 남음",
+                "descriptive_one": "챕터 내 {{ count }} 위치 남음",
+                "descriptive_other": "챕터 내 {{ count }} 위치 남음"
+            },
+            "positionsLeftInPublication": {
+                "compact_one": "도서 내 {{ count }} 남음",
+                "compact_other": "도서 내 {{ count }} 남음",
+                "descriptive_one": "도서 내 {{ count }} 위치 남음",
+                "descriptive_other": "도서 내 {{ count }} 위치 남음"
+            },
+            "range": "{{ start }} - {{ end }}",
+            "xOfY": {
+                "compact": "{{ y }} 중 {{ x }}",
+                "descriptive": "{{ y }} 중 {{ x }} ({{ z }})"
+            }
+        },
+        "search": {
+            "actions": {
+                "next": {
+                    "compact": "다음 결과"
+                },
+                "previous": {
+                    "compact": "이전 결과"
+                }
+            },
+            "placeholder": "키워드 또는 문구 검색",
+            "result_one": "{{ count }}개의 결과 중 {{ current }}번째",
+            "result_other": "{{ count }}개의 결과 중 {{ current }}번째",
+            "title": "검색"
+        },
+        "tableOfContents": {
+            "emptyState": {
+                "description": "저자가 목차를 제공하지 않았습니다.",
+                "title": "목차 없음"
+            },
+            "title": "목차"
+        }
+    }
+}
